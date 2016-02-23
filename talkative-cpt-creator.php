@@ -37,6 +37,8 @@
         'hierarchical' => true
       )
     );
+
+    register_taxonomy_for_object_type( 'flippin_product_cat', 'flippin_product' );
   }
   add_action( 'init', 'talkative_create_taxonomy' );
 
