@@ -26,6 +26,20 @@
     register_post_type( 'flippin_product', $flippinConfig);
   }
 
+  // custom taxonomy
+  function talkative_create_taxonomy() {
+    register_taxonomy(
+      'flippin_product_cat',
+      'flippin_product',
+      array(
+        'label' => __( 'Categories' ),
+        'rewrite' => array( 'slug' => 'filter' ),
+        'hierarchical' => true
+      )
+    );
+  }
+  add_action( 'init', 'talkative_create_taxonomy' );
+
   function talkative_rewrite_flush() {
       talkative_create_post_type();
       flush_rewrite_rules();
