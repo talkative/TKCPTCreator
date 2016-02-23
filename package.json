@@ -1,0 +1,10 @@
+{
+  "name": "acme_product",
+  "public": true,
+  "has_archive": true,
+
+  "labels": {
+    "name": "Products",
+    "singular_name": "Product"
+  }
+}
