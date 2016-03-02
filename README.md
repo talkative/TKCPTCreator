@@ -1,4 +1,4 @@
-=== Talkative CPT Creator ===
+# Talkative CPT Creator 
 Contributors: tommyskott
 Tags: custom post type, cpt, custom, post, type
 Donate link: http://talkative.se/
@@ -10,16 +10,16 @@ License URI: No license URL
 
 Talkative Custom Post Type Creator. 
 
-== Description ==
+### Description 
 Talkative Custom Post Type Creator. 
 Future features: Using json for CPT setup.
 
-== Installation ==
+### Installation 
 Download the plugin and put it in your plugins folder.
 
-== Frequently Asked Questions ==
+### Frequently Asked Questions 
 No questions have been asked.
 For questions: kontakt@talkative.se
 
-== Changelog ==
+### Changelog 
 0.0.1: Plugin setup.
