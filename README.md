@@ -1,11 +1,19 @@
 # Talkative CPT Creator 
+
 Contributors: tommyskott 
+
 Tags: custom post type, cpt, custom, post, type 
+
 Donate link: http://talkative.se/ 
+
 Requires at least: 4.4.2 
+
 Tested up to: 4.4.2 
+
 Stable tag: 0.0.1 
+
 License: No license 
+
 License URI: No license URL 
 
 Talkative Custom Post Type Creator. 
